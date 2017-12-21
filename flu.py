@@ -3,7 +3,7 @@ import numpy as np
 import matplotlib.pyplot as plt
 
 input_path = "./data/sfc/sfc_47662.tsv"
-output_path = "data/flu/flu0.csv"
+output_path = "data/flu/flu.csv"
 
 df = pd.read_csv(input_path, delimiter='\t')
 print(df.shape)
