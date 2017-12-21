@@ -45,6 +45,6 @@ weather_data['tp'].append(data['max_tp'])
 weather_data['rhm'].append(rhm_ave)
 
 ### グラフ
-plt.scatter(weather_data['tp'], weather_data['rain'], s=2, c=weather_data['rhm'], cmap='Blues')
-plt.colorbar()
+plt.scatter(weather_data['tp'], weather_data['rain'], s=1)#, c=weather_data['rhm'], cmap='Blues')
+#plt.colorbar()
 plt.show()
